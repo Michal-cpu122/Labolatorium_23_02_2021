@@ -1,0 +1,26 @@
+package com.company;
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+        System.out.println("Czy trójkąt o przeciwprostokątnej 3 może istnieć?");
+        System.out.println();
+        System.out.println("Wykonam sprawdzenie");
+        System.out.println();
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Wpisz liczbę 1");
+        int a = scanner.nextInt();
+        System.out.println("Wpisz liczbę 2");
+        int b = scanner.nextInt();
+        System.out.println("Wpisz liczbę 3");
+        int c = scanner.nextInt();
+        if (a + b > c) {
+            System.out.println("Tak");
+        }
+        else
+        {
+            System.out.println("Nie");
+        }
+        }
+        }
